@@ -1,0 +1,300 @@
+string oneOne = " ";
+string oneTwo = " ";
+string oneThree = " ";
+string oneFour = " ";
+string oneFive = " ";
+string twoOne = " ";
+string twoTwo = " ";
+string twoThree = " ";
+string twoFour = " ";
+string twoFive = " ";
+string threeOne = " ";
+string threeTwo = " ";
+string threeThree = " ";
+string threeFour = " ";
+string threeFive = " ";
+string fourOne = " ";
+string fourTwo = " ";
+string fourThree = " ";
+string fourFour = " ";
+string fourFive = " ";
+string fiveOne = " ";
+string fiveTwo = " ";
+string fiveThree = " ";
+string fiveFour = " ";
+string fiveFive = " ";
+ 
+Change:
+string input = Console.ReadLine();
+switch(input)
+{
+  case "1, 1":
+  if (oneOne == " ")
+  {
+      oneOne = "0";
+  }
+  else
+  {
+      oneOne = " ";
+  }
+  break;
+  case "1, 2":
+  if (oneTwo == " ")
+  {
+      oneTwo = "0";
+  }
+  else
+  {
+      oneTwo = " ";
+  }
+  break;
+  case "1, 3":
+  if (oneThree == " ")
+  {
+      oneThree = "0";
+  }
+  else
+  {
+      oneThree = " ";
+  }
+  break;
+  case "1, 4":
+  if (oneFour == " ")
+  {
+      oneFour = "0";
+  }
+  else
+  {
+      oneFour = " ";
+  }
+  break;
+      case "1, 5":
+  if (oneFive == " ")
+  {
+      oneFive = "0";
+  }
+  else
+  {
+      oneFive = " ";
+  }
+  break;
+     case "2, 1":
+ if (twoOne == " ")
+ {
+     twoOne = "0";
+ }
+ else
+ {
+     twoOne = " ";
+ }
+ break;
+ case "2, 2":
+ if (twoTwo == " ")
+ {
+     twoTwo = "0";
+ }
+ else
+ {
+     twoTwo = " ";
+ }
+ break;
+ case "2, 3":
+ if (twoThree == " ")
+ {
+     twoThree = "0";
+ }
+ else
+ {
+     twoThree = " ";
+ }
+ break;
+ case "2, 4":
+ if (twoFour == " ")
+ {
+     twoFour = "0";
+ }
+ else
+ {
+     twoFour = " ";
+ }
+ break;
+     case "2, 5":
+ if (twoFive == " ")
+ {
+     twoFive = "0";
+ }
+ else
+ {
+     twoFive = " ";
+ }
+ break;
+    case "3, 1":
+ if (threeOne == " ")
+ {
+     threeOne = "0";
+ }
+ else
+ {
+     threeOne = " ";
+ }
+ break;
+ case "3, 2":
+ if (threeTwo == " ")
+ {
+     threeTwo = "0";
+ }
+ else
+ {
+     threeTwo = " ";
+ }
+ break;
+ case "3, 3":
+ if (threeThree == " ")
+ {
+     threeThree = "0";
+ }
+ else
+ {
+     threeThree = " ";
+ }
+ break;
+ case "3, 4":
+ if (threeFour == " ")
+ {
+     threeFour = "0";
+ }
+ else
+ {
+     threeFour = " ";
+ }
+ break;
+     case "3, 5":
+ if (threeFive == " ")
+ {
+     threeFive = "0";
+ }
+ else
+ {
+     threeFive = " ";
+ }
+ break;
+ 
+ 
+  case "4, 1":
+ if (fourOne == " ")
+ {
+     fourOne = "0";
+ }
+ else
+ {
+     fourOne = " ";
+ }
+ break;
+ case "4, 2":
+ if (fourTwo == " ")
+ {
+     fourTwo = "0";
+ }
+ else
+ {
+     fourTwo = " ";
+ }
+ break;
+ case "4, 3":
+ if (fourThree == " ")
+ {
+     fourThree = "0";
+ }
+ else
+ {
+     fourThree = " ";
+ }
+ break;
+ case "4, 4":
+ if (fourFour == " ")
+ {
+     fourFour = "0";
+ }
+ else
+ {
+     fourFour = " ";
+ }
+ break;
+     case "4, 5":
+ if (fourFive == " ")
+ {
+     fourFive = "0";
+ }
+ else
+ {
+     fourFive = " ";
+ }
+ break;
+ 
+   case "5, 1":
+ if (fiveOne == " ")
+ {
+     fiveOne = "0";
+ }
+ else
+ {
+     fiveOne = " ";
+ }
+ break;
+ case "5, 2":
+ if (fiveTwo == " ")
+ {
+     fiveTwo = "0";
+ }
+ else
+ {
+     fiveTwo = " ";
+ }
+ break;
+ case "5, 3":
+ if (fiveThree == " ")
+ {
+     fiveThree = "0";
+ }
+ else
+ {
+     fiveThree = " ";
+ }
+ break;
+ case "5, 4":
+ if (fiveFour == " ")
+ {
+     fiveFour = "0";
+ }
+ else
+ {
+     fiveFour = " ";
+ }
+ break;
+     case "5, 5":
+ if (fiveFive == " ")
+ {
+     fiveFive = "0";
+ }
+ else
+ {
+     fiveFive = " ";
+ }
+ break;
+ 
+  case "done":
+  goto Done;
+}
+goto Change;
+Done:
+Console.WriteLine("   | 1 | 2 | 3 | 4 | 5 ");
+Console.WriteLine("--- --- --- --- --- ---");
+Console.WriteLine($" 1 | {oneOne} | {oneTwo} | {oneThree} | {oneFour} | {oneFive}");
+Console.WriteLine("--- --- --- --- --- ---");
+Console.WriteLine($" 2 | {twoOne} | {twoTwo} | {twoThree} | {twoFour} | {twoFive}");
+Console.WriteLine("--- --- --- --- --- ---");
+Console.WriteLine($" 3 | {threeOne} | {threeTwo} | {threeThree} | {threeFour} | {threeFive}");
+Console.WriteLine("--- --- --- --- --- ---");
+Console.WriteLine($" 4 | {fourOne} | {fourTwo} | {fourThree} | {fourFour} | {fourFive}");
+Console.WriteLine("--- --- --- --- --- ---");
+Console.WriteLine($" 5 | {fiveOne} | {fiveTwo} | {fiveThree} | {fiveFour} | {fiveFive}");
